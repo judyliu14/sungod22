@@ -2,10 +2,12 @@ import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
-import About from "./components/About/About";
-import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
-import Resume from "./components/Resume/ResumeNew";
+import Info from "./components/Info/Info";
+import Lineup from "./components/Lineup/Lineup";
+import Safety from "./components/Safety/Safety";
+import Sponsors from "./components/Sponsors/Sponsors";
+
 import {
   BrowserRouter as Router,
   Route,
@@ -36,9 +38,10 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Projects />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route path="/lineup" element={<Lineup />} />
+          <Route path="/info" element={<Info />} />
+          <Route path="/safety" element={<Safety />} />
+          <Route path="/sponsors" element={<Sponsors />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
