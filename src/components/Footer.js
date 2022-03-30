@@ -5,6 +5,7 @@ import {
   AiFillFacebook,
 } from "react-icons/ai";
 import { FaTiktok, FaInstagram } from "react-icons/fa";
+import ascelogo from "../Assets/asce-logo.png"
 
 function Footer() {
   let date = new Date();
@@ -13,7 +14,13 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Sponsors</h3>
+          <a
+            href="https://asce.ucsd.edu/"
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <img src={ascelogo} className="img-fluid ascelogo" alt="asce" />
+          </a>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>SUNGOD {year}</h3>

@@ -1,7 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/Projects/beachChairs.png";
+import myImg from "../../Assets/Projects/leaves.png";
 import Tilt from "react-parallax-tilt";
+import Button from "react-bootstrap/Button";
+
+const registerLink = "https://ucsd.evenue.net/cgi-bin/ncommerce3/SEGetEventList?groupCode=SGF&linkID=ucsd-arts&shopperContext=&caller=&appCode="
 
 function Home2() {
   return (
@@ -10,22 +13,31 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              <span className="purple"> REGISTER HERE </span>
+              <span className="purple"> REGISTRATION </span>
             </h1>
             <p className="home-about-body">
-              Registration is now OPEN!
+              Registration for the 2022 Sun God Festival is now OPEN!
               <br />
-              <br />All UCSD Undergrads must register to attend the festival.
-              <i>
-                <b className="purple"> Registration closes on April 27th at 11:59PM! </b>
-              </i>
+              <br />All attendees must register by
+              <b className="purple"> Noon on April 22nd </b>
+              AND be compliant with the COVID-19 Vaccine Mandate by
+              <b className="purple"> Noon on Wednesday, April 27th </b>
+               - no exceptions will be made
               <br />
               <br />
-              UC San Diego Graduate students are eligible to attend the 2022 Sun God Festival!
-              
-              
             </p>
+            <Row style={{ justifyContent: "center", position: "relative" }}>
+              <Button
+                variant="primary"
+                href={registerLink}
+                target="_blank"
+                style={{ maxWidth: "250px" }}
+              >
+                &nbsp;<b>Register</b>
+              </Button>
+            </Row>
           </Col>
+          
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />

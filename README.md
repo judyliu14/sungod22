@@ -1,6 +1,6 @@
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="http://soumya-jit.tech/" target="_blank">soumyajit.tech</a>
+  Sungod Festival 2022<br/>
+  <a href="sgf.ucsd.edu/2022" target="_blank">sfg.ucsd.edu/2022</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-img1.png" />

@@ -4,6 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
+import Button from "react-bootstrap/Button";
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
@@ -11,6 +12,8 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
+
+const registerLink = "https://ucsd.evenue.net/cgi-bin/ncommerce3/SEGetEventList?groupCode=SGF&linkID=ucsd-arts&shopperContext=&caller=&appCode="
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -96,6 +99,16 @@ function NavBar() {
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> Sponsors
               </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item className="fork-btn">
+              <Button
+                href={registerLink}
+                target="_blank"
+                className="fork-btn-inner"
+              >
+                Register{" "}
+              </Button>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>

@@ -3,11 +3,13 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/Projects/beachChairs.png";
 import Mission from "./Mission"
 import Tilt from "react-parallax-tilt";
+import Particle from "../Particle";
 
 function Info(props) {
   return (
     <section>
       <Container fluid className="home-about-section" id="about">
+        <Particle />
         <Container>
           <Row>
             <Col md={8} className="home-about-description">

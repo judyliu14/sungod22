@@ -6,6 +6,24 @@ import Home2 from "./Home2";
 import Type from "./Type";
 
 function Home() {
+
+  const calculateTimeLeft = () => {
+
+    let date = new Date();
+    let year = date.getFullYear();
+    const difference = +new Date('04/30/${year}' - +new Date());
+    let timeLeft = {};
+    if (difference > 0) {
+      timeLeft = {
+        days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+        hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+        minutes: Math.floor((difference / 1000 / 60) % 60),
+        seconds: Math.floor((difference / 1000) % 60)
+      }
+    }
+    return timeLeft;
+  }
+  const timeLeft = calculateTimeLeft();
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -18,7 +36,9 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                -- days -- hours -- minutes
+                {timeLeft.days} days 
+                {timeLeft.hours} hours 
+                {timeLeft.minutes} minutes
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
