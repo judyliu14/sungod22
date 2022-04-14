@@ -1,8 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+@import url("https://use.typekit.net/yvt4vep.css");
 body {
   margin: 0;
-  font-family: "Raleway", serif !important;
+  font-family: "degular-text", sans-serif !important;
+  font-weight: 500;
+  font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to left, #3D617E, #5E4E5C);
+  background-image: linear-gradient(-100deg, #5782a5b9, #e48da2d5);
 }

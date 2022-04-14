@@ -10,14 +10,16 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-
 import { CgFileDocument } from "react-icons/cg";
+import { NavDropdown } from "react-bootstrap";
 
 const registerLink = "https://ucsd.evenue.net/cgi-bin/ncommerce3/SEGetEventList?groupCode=SGF&linkID=ucsd-arts&shopperContext=&caller=&appCode="
+const apparelLink = "https://to.ucsd.edu/collections/sun-god-festival-2022"
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
+  const navDropdownTitle = (<div><AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }}/>{" "}[ Info ]</div>)
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
@@ -67,19 +69,18 @@ function NavBar() {
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> Lineup
               </Nav.Link>
             </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/info"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Info
-              </Nav.Link>
-            </Nav.Item>
+            
+            <NavDropdown title={navDropdownTitle} id="navbarScrollingDropdown" renderMenuOnMount={true}>
+              <NavDropdown.Item as={Link} to="/info" onClick={() => updateExpanded(false)}>About the Festival</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/registration-info" onClick={() => updateExpanded(false)}>Registration</NavDropdown.Item>
+              <NavDropdown.Item href={apparelLink} target="_blank" onClick={() => updateExpanded(false)}>Apparel</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/transportation" onClick={() => updateExpanded(false)}>Transportation</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/adainfo" onClick={() => updateExpanded(false)}>ADA Info</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/volunteers" onClick={() => updateExpanded(false)}>Volunteers</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/sun-god-for-a-cause" onClick={() => updateExpanded(false)}>Sun God For A Cause</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/sun-god-babies" onClick={() => updateExpanded(false)}>Sun God Babies</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/faq" onClick={() => updateExpanded(false)}>FAQ</NavDropdown.Item>
+            </NavDropdown>
 
             <Nav.Item>
               <Nav.Link

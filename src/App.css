@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.h1,
+.title {
+  font-family: degular-display,sans-serif !important;
+  font-weight: 600;
+  font-style: italic;
+}

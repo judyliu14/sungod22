@@ -21,37 +21,6 @@ function Sponsors() {
         </Col>
       </Row>
     </Container>
-
-  //   <Container fluid className="lineup-section">
-  //   <Particle />
-  //   <Container>
-  //     <h1 className="project-heading">
-  //       Sponsors <strong className="purple">2022 </strong>
-  //     </h1>
-
-  //   <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-  //     <Col xs={7} md={5} className="tech-icons">
-  //       <CgCPlusPlus />
-  //     </Col>
-  //     <Col xs={7} md={5} className="tech-icons">
-  //       <CgCPlusPlus />
-  //     </Col>
-  //     <Col xs={7} md={5} className="tech-icons">
-  //       <CgCPlusPlus />
-  //     </Col>
-  //     <Col xs={7} md={5} className="tech-icons">
-  //       <CgCPlusPlus />
-  //     </Col>
-  //     <Col xs={7} md={5} className="tech-icons">
-  //       <CgCPlusPlus />
-  //     </Col>
-  //     <Col xs={7} md={5} className="tech-icons">
-  //       <CgCPlusPlus />
-  //     </Col>
-  //   </Row>
-
-  //   </Container>
-  // </Container>
   );
 }
 

@@ -23,7 +23,7 @@ function Footer() {
           </a>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>SUNGOD {year}</h3>
+          <h3>SUN GOD FESTIVAL {year}</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
