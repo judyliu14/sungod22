@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/Projects/beachChairs.png";
+import mySign from "../../Assets/Projects/sign.png";
 import Tilt from "react-parallax-tilt";
 import Particle from "../Particle";
 import Button from "react-bootstrap/Button";
@@ -47,7 +47,7 @@ function RegistrationInfo() {
             </Col>
             <Col md={4} className="myAvtar">
               <Tilt>
-                <img src={myImg} className="img-fluid" alt="avatar" />
+                <img src={mySign} className="img-fluid" alt="avatar" />
               </Tilt>
             </Col>
           </Row>

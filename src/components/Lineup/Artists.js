@@ -5,7 +5,6 @@ import berhana from "../../Assets/Artists/berhana.jpeg"
 import keshi from "../../Assets/Artists/keshi.jpg"
 import ptr from "../../Assets/Artists/ptr.jpg"
 import umi from "../../Assets/Artists/umi.jpg" 
-import Tilt from "react-parallax-tilt";
 
 function Artists() {
 

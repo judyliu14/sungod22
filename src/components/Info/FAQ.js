@@ -166,7 +166,7 @@ function FAQ() {
     <section>
       <Container>
           <Particle />
-          <Container>
+          <Container fluid className="home-about-section" id="about">
             <Row>
               <Col className="home-about-description">
                 <h1 className="project-heading">

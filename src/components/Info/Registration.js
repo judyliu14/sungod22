@@ -1,19 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/Projects/beachChairs.png";
-import Tilt from "react-parallax-tilt";
 
 function Registration(props) {
   return (
-    <Container fluid className="home-about-section" id="about">
+    // <Container fluid className="home-about-section" id="about">
         <Container>
             <Row>
-                <Col md={4} className="myAvtar">
-                    <Tilt>
-                    <img src={myImg} className="img-fluid" alt="avatar" />
-                    </Tilt>
-                </Col>
-                <Col md={8} className="home-about-description">
+                <Col className="home-about-description">
                     <h1 style={{ fontSize: "2.6em" }}>
                     <span className="purple"> REGISTRATION </span>
                     </h1>
@@ -43,7 +36,7 @@ function Registration(props) {
                 </Col>
             </Row>
         </Container>
-    </Container>
+    // </Container>
   );
 }
 export default Registration;

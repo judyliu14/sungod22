@@ -1,10 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/Projects/leaves.png";
+import mySwing from "../../Assets/Projects/swing.png";
 import Tilt from "react-parallax-tilt";
 import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 
-const babiesLink = "https://to.ucsd.edu/collections/sun-god-festival-2022"
+// const babiesLink = "https://to.ucsd.edu/collections/sun-god-festival-2022"
 
 function SunGodBabies() {
   return (
@@ -23,8 +24,8 @@ function SunGodBabies() {
             <Row style={{ justifyContent: "center", position: "relative" }}>
               <Button
                 variant="primary"
-                href={babiesLink}
-                target="_blank"
+                as={Link}
+                to="/sun-god-babies"
                 style={{ maxWidth: "250px" }}
               >
                 &nbsp;<b>Get Sun God Babies </b>
@@ -34,7 +35,7 @@ function SunGodBabies() {
           
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={mySwing} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>

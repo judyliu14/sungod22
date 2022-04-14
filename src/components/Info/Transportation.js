@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/Projects/beachChairs.png";
+import mySwing from "../../Assets/Projects/swing.png";
 import Tilt from "react-parallax-tilt";
 import Particle from "../Particle";
 
@@ -21,7 +21,7 @@ function Transportation() {
             </Col>
             <Col md={4} className="myAvtar">
               <Tilt>
-                <img src={myImg} className="img-fluid" alt="avatar" />
+                <img src={mySwing} className="img-fluid" alt="avatar" />
               </Tilt>
             </Col>
           </Row>
