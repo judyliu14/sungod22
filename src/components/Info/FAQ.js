@@ -177,9 +177,9 @@ function FAQ() {
             <Row> 
                 <Col className="home-about-description">
                     <h1 style={{ fontSize: "1.6em" }}>
-                        <span className="purple"> Health & Safety </span>
+                        Health & Safety
                     </h1>
-                    <div style={{ paddingTop: '20px', width: "100%", }}>
+                    <div style={{ paddingTop: '20px', width: "100%", textAlign: "left" }}>
                     <Faq data={data} styles={styles} config={config}/>
                     </div>
                 </Col>
@@ -187,9 +187,9 @@ function FAQ() {
             <Row> 
                 <Col className="home-about-description">
                     <h1 style={{ fontSize: "1.6em" }}>
-                        <span className="purple"> General </span>
+                        General
                     </h1>
-                    <div style={{ paddingTop: '20px', width: "100%", }}>
+                    <div style={{ paddingTop: '20px', width: "100%", textAlign: "left" }}>
                     <Faq data={generalData} styles={styles} config={config}/>
                     </div>
                 </Col>
@@ -197,9 +197,9 @@ function FAQ() {
             <Row> 
                 <Col className="home-about-description">
                     <h1 style={{ fontSize: "1.6em" }}>
-                        <span className="purple"> Tickets & Registration </span>
+                       Tickets & Registration
                     </h1>
-                    <div style={{ paddingTop: '20px', width: "100%", }}>
+                    <div style={{ paddingTop: '20px', width: "100%", textAlign: "left"}}>
                     <Faq data={registerData} styles={styles} config={config}/>
                     </div>
                 </Col>
@@ -207,9 +207,9 @@ function FAQ() {
             <Row> 
                 <Col className="home-about-description">
                     <h1 style={{ fontSize: "1.6em" }}>
-                        <span className="purple"> Will There Be... </span>
+                       Will There Be...
                     </h1>
-                    <div style={{ paddingTop: '20px', width: "100%", }}>
+                    <div style={{ paddingTop: '20px', width: "100%", textAlign: "left" }}>
                     <Faq data={willThereData} styles={styles} config={config}/>
                     </div>
                 </Col>

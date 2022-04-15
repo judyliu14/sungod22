@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import mySwing from "../../Assets/Projects/swing.png";
+import mySunGodBabies from "../../Assets/Projects/sunGodBabies.png";
 import Tilt from "react-parallax-tilt";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
@@ -14,7 +14,7 @@ function SunGodBabies() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1>
-              <span className="purple"> Sun God Babies </span>
+              Sun God Babies
             </h1>
             <p className="home-about-body">
             Come to the biggest event of the year in style by rocking some sweet festival merch! 
@@ -35,7 +35,7 @@ function SunGodBabies() {
           
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={mySwing} className="img-fluid" alt="avatar" />
+              <img src={mySunGodBabies} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>

@@ -10,7 +10,7 @@ function Vision(props) {
           <Row>
             <Col className="home-about-description">
               <h1>
-                <span className="purple"> VISION </span>
+                VISION
               </h1>
               <p className="home-about-body">
                 To create a positive impact and shape our campus culture by employing industry best practices, 

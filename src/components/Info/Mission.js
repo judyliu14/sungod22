@@ -17,7 +17,7 @@ function Mission(props) {
             </Col>
             <Col md={8} className="home-about-description">
               <h1>
-                <span className="purple"> MISSION </span>
+                Mission
               </h1>
               <p className="home-about-body">
                 To curate an annual music and arts festival that is the highlight of the UC San Diego undergraduate student experience.  

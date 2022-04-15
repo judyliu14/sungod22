@@ -13,7 +13,7 @@ function Transportation() {
           <Row>
             <Col md={8} className="home-about-description">
                 <h1>
-                    <span className="purple"> Transportation </span>
+                    Transportation
                 </h1>
                 <p className="home-about-body">
                     Having a plan for getting to and from campus safely is part of the safe Sun God experience. Parking and transportation on campus is heavily impacted on the day of the Sun God Festival with some nearby parking lots being reserved, either partially or in full, for festival vendors and staff including: Hopkins Parking Structure, Pangea Parking Structure, P357 and Spanos Loop. 
@@ -33,23 +33,23 @@ function Transportation() {
                 <p className="home-about-body">
                     Route 201:
                     <ul>
-                        <li>UTC -> UCSD -> La Jolla Village Square -> UTC</li>
-                        <li>Arrives/Departs UCSD approx. every 15 minutes</li>
+                        <li>{"UTC -> UCSD -> La Jolla Village Square -> UTC"}</li>
+                        <li>{"Arrives/Departs UCSD approx. every 15 minutes"}</li>
                     </ul>
                     Route 202:
                     <ul>
-                        <li>UTC -> La Jolla Village Square -> UCSD -> UTC</li>
-                        <li>Arrives/Departs UCSD approx. every 15 minutes</li>
+                        <li>{"UTC -> La Jolla Village Square -> UCSD -> UTC"}</li>
+                        <li>{"Arrives/Departs UCSD approx. every 15 minutes"}</li>
                     </ul>
                     Route 921A West:
                     <ul>
-                        <li>Mira Mesa -> Sorrento Valley -> La Jolla Village Dr & Genesee -> UCSD</li>
-                        <li>Arrives/Departs UCSD approx. hourly</li>
+                        <li>{"Mira Mesa -> Sorrento Valley -> La Jolla Village Dr & Genesee -> UCSD"}</li>
+                        <li>{"Arrives/Departs UCSD approx. hourly"}</li>
                     </ul>
                     Route 921A East:
                     <ul>
-                        <li>UCSD -> La Jolla Village Dr & Genesee -> Sorrento Valley -> Mira Mesa</li>
-                        <li>Arrives/Departs UCSD approx. hourly</li>
+                        <li>{"UCSD -> La Jolla Village Dr & Genesee -> Sorrento Valley -> Mira Mesa"}</li>
+                        <li>{"Arrives/Departs UCSD approx. hourly"}</li>
                     </ul>
                     Visit SDMTS.com for more information about MTS bus service.
                 </p>

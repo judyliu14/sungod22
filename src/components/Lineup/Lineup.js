@@ -9,7 +9,7 @@ function Lineup() {
       <Row>
         <Col className="home-about-description">
           <h1>
-            Lineup <strong className="purple">2022 </strong>
+            Lineup <strong>2022 </strong>
           </h1>
         </Col>
       </Row>

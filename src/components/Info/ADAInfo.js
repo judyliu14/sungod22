@@ -11,7 +11,7 @@ function Transportation() {
           <Row>
             <Col className="home-about-description">
                 <h1>
-                    <span className="purple"> ADA Info </span>
+                    ADA Info
                 </h1>
                 <p className="home-about-body">
                     The Sun God Festival is an accessible event for guests with disabilities. It is our mission to provide the best experience for all event attendees. Please feel free to contact us if you have any questions not answered below.

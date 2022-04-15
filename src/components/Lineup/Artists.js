@@ -104,7 +104,7 @@ function Artists() {
         <Col xs={7} md={10}>
           <p class="lineup-description">
             <h1>
-              {"Peach Tree Pascals"}
+              {"Peach Tree Rascals"}
             </h1>
             {`More of a brotherhood than a collective, The Rascals blend a seemingly effortless knack for melody with layers of rich harmony and R&B grooves. Recording together since their high school days, producer/mixer Dominic "Dom" Pizano, rappers-singers Issac Pech, Tarrek Abdel-Khaliq, Joseph Barros, and creative director Jorge Olazaba united with the intent of seeking musical growth and companionship. With most of the members being second-generation Americans (the sons of Palestinian, Filipino, and Mexican immigrants), they quickly realized a deep, natural connection with one another, and grew into a single, harmonious unit. To date, Peach Tree Rascals has garnered 500M+ streams across platforms and counts 6M+ Spotify monthly listeners. Their breakthrough hit “Mariposa” charted at #1 on the Alternative Radio Chart and has been co-signed by Lizzo and Harry Styles.`}
            </p>

@@ -14,15 +14,15 @@ function Registration() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1>
-              <span className="purple"> REGISTRATION </span>
+              REGISTRATION
             </h1>
             <p className="home-about-body">
               Registration for the 2022 Sun God Festival is now OPEN!
               <br />
               <br />All attendees must register by
-              <b className="purple"> Noon on April 22nd </b>
+              <b> Noon on April 22nd </b>
               AND be compliant with the COVID-19 Vaccine Mandate by
-              <b className="purple"> Noon on Wednesday, April 27th </b>
+              <b> Noon on Wednesday, April 27th </b>
                - no exceptions will be made
               <br />
               <br />

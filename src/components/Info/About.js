@@ -15,12 +15,12 @@ function About(props) {
           <Row>
             <Col md={8} className="home-about-description">
               <h1>
-                <span className="purple"> ABOUT </span>
+                ABOUT
               </h1>
               <p className="home-about-body">
               The Sun God Festival is a student-curated, daytime music and arts festival at UC San Diego. 
               Named as one of Live Nation's
-                <b className="purple"> Top 5 College Concerts That Should Be Actual Festivals</b>,
+                <b> Top 5 College Concerts That Should Be Actual Festivals</b>,
                 the Sun God Festival is continuously reimagined to deliver students with thrilling moments 
                 and life-long memories from live performances by national touring artists, 
                 diverse food vendors, vibrant art and décor, and interactive brand activations.

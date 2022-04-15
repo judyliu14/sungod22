@@ -17,7 +17,7 @@ function SunGodForACause() {
           <Row>
             <Col md={8} className="home-about-description">
                 <h1>
-                    <span className="purple"> Sun God For A Cause </span>
+                    Sun God For A Cause
                 </h1>
                 <p className="home-about-body">
                     Every year, ASCE presents a new Sun God For a Cause philanthropy initiative to give back to our local San Diego community. It uses our platform to raise awareness and bring attention to a cause. This year, ASCE will be working with Break the Outbreak, Healing Hands, and Asian American Advocacy to donate health kits that include PPE and hygienic products to a shelter in San Diego. 

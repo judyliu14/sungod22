@@ -16,10 +16,6 @@ html {
   --medium-pink: #c799ad;
 }
 
-.purple {
-  color: var(--imp-text-color) !important;
-}
-
 button:focus {
   box-shadow: none !important;
 }
@@ -533,12 +529,11 @@ button:focus {
 }
 
 /* --------- */
-/* Safety */
+/* Safety & FAQ */
 /* --------- */
 
-
 /* --------- */
-/* fork-btn */
+/* nav-register-btn */
 /* --------- */
 
 .fork-btn {
@@ -563,4 +558,14 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+/* --------- */
+/* sponsors */
+/* --------- */
+
+.sponsor-logos {
+  padding-right: 100px !important;
+  padding-left: 100px !important;
+  align-items: center;
 }

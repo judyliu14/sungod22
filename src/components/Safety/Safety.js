@@ -82,7 +82,7 @@ function Safety() {
                 <h1>
                   SAFETY
                 </h1>
-                <div style={{ paddingTop: '20px', width: "100%", }}>
+                <div style={{ paddingTop: '20px', width: "100%", textAlign: "left" }}>
                   <Faq data={data} styles={styles} config={config}/>
                 </div>
               </Col>
