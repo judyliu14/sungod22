@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import { Container } from "react-bootstrap";
 import Particle from "../Particle";
 
@@ -11,7 +10,7 @@ function Sponsors() {
       <Particle />
       <Row>
         <Col className="home-about-description">
-          <h1 className="project-heading">
+          <h1>
             Sponsors <strong className="purple">2022 </strong>
           </h1>
           <h2>

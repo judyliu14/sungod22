@@ -13,8 +13,8 @@ function Merch() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              <span className="purple"> Merch </span>
+            <h1>
+              <span className="purple"> merch </span>
             </h1>
             <p className="home-about-body">
             Come to the biggest event of the year in style by rocking some sweet festival merch! 

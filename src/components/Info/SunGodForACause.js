@@ -16,7 +16,7 @@ function SunGodForACause() {
         <Container>
           <Row>
             <Col md={8} className="home-about-description">
-                <h1 style={{ fontSize: "2.6em" }}>
+                <h1>
                     <span className="purple"> Sun God For A Cause </span>
                 </h1>
                 <p className="home-about-body">

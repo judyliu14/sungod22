@@ -7,7 +7,7 @@ function Registration(props) {
         <Container>
             <Row>
                 <Col className="home-about-description">
-                    <h1 style={{ fontSize: "2.6em" }}>
+                    <h1>
                     <span className="purple"> REGISTRATION </span>
                     </h1>
                     <h3 style={{ fontSize: "1.6em" }}>

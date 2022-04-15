@@ -30,7 +30,6 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.facebook.com/sungodfestival/"
-                style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -40,7 +39,6 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://twitter.com/ucsdasce/"
-                style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -50,7 +48,6 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.instagram.com/ucsdasce/"
-                style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -60,7 +57,6 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.tiktok.com/@ascebear/"
-                style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >

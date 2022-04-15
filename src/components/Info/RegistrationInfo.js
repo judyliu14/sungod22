@@ -15,7 +15,7 @@ function RegistrationInfo() {
         <Container>
           <Row>
             <Col md={8} className="home-about-description">
-                <h1 style={{ fontSize: "2.6em" }}>
+                <h1>
                 <span className="purple"> Registration </span>
                 </h1>
                 <p className="home-about-body">
@@ -53,7 +53,7 @@ function RegistrationInfo() {
           </Row>
           <Row>
             <Col className="home-about-description">
-                <h1 style={{ fontSize: "2.6em" }}>
+                <h1>
                     <span className="purple"> Graduate Tickets </span>
                 </h1>
                 <p className="home-about-body">
@@ -79,7 +79,7 @@ function RegistrationInfo() {
           </Row>
           <Row>
               <Col className="home-about-description">
-                <h1 style={{ fontSize: "2.6em" }}>
+                <h1>
                     <span className="purple"> ON THE DAY OF THE FESTIVAL: </span>
                 </h1>
                 <p className="home-about-body">
@@ -94,7 +94,7 @@ function RegistrationInfo() {
           </Row>
           <Row>
               <Col className="home-about-description">
-                <h1 style={{ fontSize: "2.6em" }}>
+                <h1>
                     <span className="purple"> Festival Hours </span>
                 </h1>
                 <p className="home-about-body">

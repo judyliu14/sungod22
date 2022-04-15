@@ -145,10 +145,10 @@ const generalData = {
 
 const styles = {
   bgColor: '#b68e8900',
-  titleTextColor: "white",
-  rowTitleColor: "white",
-  rowContentColor: 'white',
-  arrowColor: "white",
+  titleTextColor: "#4b4b4b",
+  rowTitleColor: "#4b4b4b",
+  rowContentColor: '#4b4b4b',
+  arrowColor: "#4b4b4b",
   rowContentPaddingTop: '20px',
   rowContentPaddingBottom: '20px',
   rowContentPaddingLeft: '25px',
@@ -169,7 +169,7 @@ function FAQ() {
           <Container fluid className="home-about-section" id="about">
             <Row>
               <Col className="home-about-description">
-                <h1 className="project-heading">
+                <h1>
                     FREQUENTLY ASKED QUESTIONS
                 </h1>
               </Col>
