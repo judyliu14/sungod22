@@ -8,7 +8,6 @@ function Transportation() {
   return (
     <section>
       <Container fluid className="home-about-section" id="about">
-        <Particle />
         <Container>
           <Row>
             <Col md={8} className="home-about-description">
@@ -69,6 +68,7 @@ function Transportation() {
             </Col>
           </Row>
         </Container>
+        <Particle />
       </Container>
     </section>
   );

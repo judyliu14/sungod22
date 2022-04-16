@@ -20,10 +20,10 @@ function Registration() {
               Registration for the 2022 Sun God Festival is now OPEN!
               <br />
               <br />All attendees must register by
-              <b> Noon on April 22nd </b>
+              <b> Noon on Friday, April 22nd </b>
               AND be compliant with the COVID-19 Vaccine Mandate by
               <b> Noon on Wednesday, April 27th </b>
-               - no exceptions will be made
+               - no exceptions will be made.
               <br />
               <br />
             </p>

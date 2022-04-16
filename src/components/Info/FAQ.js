@@ -7,7 +7,14 @@ const data = {
   rows: [
     {
         title: "What is being done to make the festival safe?",
-        content: "Student health and safety is the top priority of the festival organizers. The festival grounds are designed to be a safe space for students. Heightened enforcement will occur at festival entrances to prevent access to visibly intoxicated students and to block prohibited substances and items from entering the event. All attendees will be screened at the entrance prior to entering the venue. Similar to other large music festival entrances, drug recognition experts will be present to intervene with any intoxicated students, and security staff will use drug-detection dogs as a safety measure to ensure the festival is a drug-free space. Students who arrive under the influence of drugs or alcohol will be unable to enter the Sun God Festival. They also can be subject to arrest or other consequences related to violation of the UC San Diego Student Code of Conduct and/or taken to appropriate medical care. <br />As in years past, educational programs around the festival focus on key topics such as drug and alcohol safety and sexual assault prevention. In addition, the “floaties” bystander intervention training program has been expanded and student “floaties” who have gone through the training program will have a large presence at this year’s Sun God Festival. ASCE is also supporting other initiatives and groups on campus working to educate and support the development of students’ understanding of these issues. <br /> Regarding COVID safety, only those who registered for the festival and are compliant with the COVID-19 Vaccine Mandate will receive a ticket to the festival. Masks are highly encouraged. COVID guidance and festival policies may change as the campus and county respond to the ongoing pandemic. <br />"
+        content: `Student health and safety is the top priority of the festival organizers. The festival grounds are designed to be a safe space for students. Heightened enforcement will occur at festival entrances to prevent access to visibly intoxicated students and to block prohibited substances and items from entering the event. All attendees will be screened at the entrance prior to entering the venue. Similar to other large music festival entrances, drug recognition experts will be present to intervene with any intoxicated students, and security staff will use drug-detection dogs as a safety measure to ensure the festival is a drug-free space. Students who arrive under the influence of drugs or alcohol will be unable to enter the Sun God Festival. They also can be subject to arrest or other consequences related to violation of the UC San Diego Student Code of Conduct and/or taken to appropriate medical care. 
+                <br />
+                <br />
+                As in years past, educational programs around the festival focus on key topics such as drug and alcohol safety and sexual assault prevention. In addition, the “floaties” bystander intervention training program has been expanded and student “floaties” who have gone through the training program will have a large presence at this year’s Sun God Festival. ASCE is also supporting other initiatives and groups on campus working to educate and support the development of students’ understanding of these issues. 
+                <br /> 
+                <br />
+                Regarding COVID safety, only those who registered for the festival and are compliant with the COVID-19 Vaccine Mandate will receive a ticket to the festival. Masks are highly encouraged. COVID guidance and festival policies may change as the campus and county respond to the ongoing pandemic.  
+                <br />`
     },
     {
         title: "What happens if I show up to the event intoxicated?",
@@ -52,11 +59,11 @@ const generalData = {
       },
       {
           title: "Are there opportunities to volunteer at the event?",
-          content: "Yes! We are accepting applications for those who would like to work the event until April 8th. Link:  https://forms.gle/C3QbQKqqhsmMCBwq6."
+          content: `Yes! We are accepting applications for those who would like to work the event until April 8th. Register <a href="https://forms.gle/C3QbQKqqhsmMCBwq6 alt="volunteer">here</a>.`
       },
       {
           title: "Will there be Sun God Merchandise sold?",
-          content: "Yes, official Sun God Festival merchandise will be available through Triton Outfitters online and at their store in advance of the festival and at the Triton Outfitters Experience at the festival, while supplies last."
+          content: `Yes, official Sun God Festival merchandise will be available through <a href="http://to.ucsd.edu/" alt="Triton Outfitters">Triton Outfitters</a> online and at their store in advance of the festival and at the Triton Outfitters Experience at the festival, while supplies last.`
       },
       {
           title: "Will there be wifi on the field?",
@@ -117,7 +124,7 @@ const generalData = {
             content: "Yes. First Aid stations will be be available throughout the venue. They will be clearly marked on the festival map and visible on the field."
         },
         {
-            title: "Will there be First Aid on site?",
+            title: "Will there be flushable toilets and sinks available?",
             content: "Sorry, portable toilets only. There will be sinks though!"
         },
         {

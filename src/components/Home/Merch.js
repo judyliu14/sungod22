@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/Projects/leaves.png";
+import myImg from "../../Assets/Projects/merch.png";
 import Tilt from "react-parallax-tilt";
 import Button from "react-bootstrap/Button";
 import SunGodBabies from './SunGodBabies'
@@ -17,9 +17,7 @@ function Merch() {
               Merch
             </h1>
             <p className="home-about-body">
-            Come to the biggest event of the year in style by rocking some sweet festival merch! 
-            This year, Triton Outfitters has anything from running shorts, to band-inspired t-shirt, 
-            to chic bandanas.
+              Come to the biggest event of the year in style by rocking some sweet festival merch! This year, Triton Outfitters has anything from official SGF22 hoodies, to t-shirts, to totes, and more.
             </p>
             <Row style={{ justifyContent: "center", position: "relative" }}>
               <Button

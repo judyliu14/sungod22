@@ -78,7 +78,7 @@ function NavBar() {
               <NavDropdown.Item as={Link} to="/adainfo" onClick={() => updateExpanded(false)}>ADA Info</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/volunteers" onClick={() => updateExpanded(false)}>Volunteers</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/sun-god-for-a-cause" onClick={() => updateExpanded(false)}>Sun God For A Cause</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/sun-god-babies" onClick={() => updateExpanded(false)}>Sun God Babies</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/sgfbabies" onClick={() => updateExpanded(false)}>Sun God Babies</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/faq" onClick={() => updateExpanded(false)}>FAQ</NavDropdown.Item>
             </NavDropdown>
 

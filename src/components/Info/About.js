@@ -10,7 +10,6 @@ function About(props) {
   return (
     <section>
       <Container fluid className="home-about-section" id="about">
-        <Particle />
         <Container>
           <Row>
             <Col md={8} className="home-about-description">
@@ -43,6 +42,7 @@ function About(props) {
             </Col>
           </Row>
         </Container>
+        <Particle />
       </Container>
       <Mission />
     </section>

@@ -57,7 +57,7 @@ function App() {
           <Route path="/faq" element={<FAQ />} />
           <Route path="/registration-info" element={<RegistrationInfo />} />
           <Route path="/sun-god-for-a-cause" element={<SunGodForACause />} />
-          <Route path="/sun-god-babies" element={<SunGodBabies />} />
+          <Route path="/sgfbabies" element={<SunGodBabies />} />
           <Route path="/transportation" element={<Transportation />} />
           <Route path="/volunteers" element={<Volunteers />} />
           <Route path="*" element={<Navigate to="/"/>} />

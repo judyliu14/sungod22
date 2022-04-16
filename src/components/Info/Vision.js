@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Registration from "./Registration";
 
 function Vision(props) {
   return (
@@ -18,9 +17,11 @@ function Vision(props) {
               </p>
             </Col>
           </Row>
+          <Row> 
+              <Col style={{padding: '50px'}}>
+              </Col>
+            </Row>
         </Container>
-      {/* </Container> */}
-      <Registration />
     </section>
   );
 }

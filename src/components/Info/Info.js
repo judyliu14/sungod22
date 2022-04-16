@@ -9,7 +9,6 @@ function Info(props) {
   return (
     <section>
       <Container fluid className="home-about-section" id="about">
-        <Particle />
         <Container>
           <Row>
             <Col md={8} className="home-about-description">
@@ -31,7 +30,7 @@ function Info(props) {
                 Although the first effort was unseasonably washed out and was canceled due to rain, 
                 Sun God shined in its 1984 re-debut and the festival has since become a beloved UC San Diego tradition. 
                 It has changed locations a number of times, from the original Student Center hump to the Sun God Lawn, 
-                to the Price Center plaza, to Warren Mall. Now it spreads its wings at RIMAC Field.
+                to the Price Center Plaza, to Warren Mall. Now it spreads its wings at RIMAC Field.
                 UC San Diego Graduate students are eligible to attend the 2022 Sun God Festival!
               </p>
             </Col>
@@ -42,6 +41,7 @@ function Info(props) {
             </Col>
           </Row>
         </Container>
+        <Particle />
       </Container>
       <Mission />
     </section>

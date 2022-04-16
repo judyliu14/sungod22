@@ -4,6 +4,7 @@ import mySign from "../../Assets/Projects/sign.png";
 import Tilt from "react-parallax-tilt";
 import Particle from "../Particle";
 import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 
 const registerLink = "https://ucsd.evenue.net/cgi-bin/ncommerce3/SEGetEventList?groupCode=SGF&linkID=ucsd-arts&shopperContext=&caller=&appCode="
 
@@ -11,16 +12,19 @@ function RegistrationInfo() {
   return (
     <section>
       <Container fluid className="home-about-section" id="about">
-        <Particle />
         <Container>
           <Row>
             <Col md={8} className="home-about-description">
                 <h1>
                   Registration
                 </h1>
+                <h3>
+                  <b>Undergraduate Registration</b>
+                </h3>
                 <p className="home-about-body">
-                    Registration for the 2022 Sun God Festival will open at Noon on Wednesday, 
-                    March 30th and will close at Noon on Friday, April 22nd. To attend the festival, 
+                    Registration for the 2022 Sun God Festival will open at Noon on
+                    <b> Wednesday, March 30th</b> and will close at Noon on 
+                    <b> Friday, April 22nd</b>. To attend the festival, 
                     you MUST register within this time frame. Once you complete the registration process, 
                     you will receive a confirmation email with additional information regarding the 
                     COVID-19 Vaccine Mandate required to attend. Please note that this confirmation 
@@ -33,6 +37,9 @@ function RegistrationInfo() {
                 </p>
                 <p className="home-about-body">
                     Graduated early? Taking the quarter off? Not a problem! All undergraduate students who have enrolled at UC San Diego for at least one quarter during the 2021-2022 school year are eligible to attend Sun God. Summer Sessions are not applicable. 
+                    <br />
+                    <br />
+                    This event is exclusively for UC San Diego undergraduate students that have been enrolled in the 2021-2022 academic year and contributed to the student activity fee.  All guests must be 17+ years of age to enter.  A UC San Diego student ID will be required along with the festival ticket. Sun God Festival tickets are non-transferable and unique to each attendee.  
                 </p>
                 <Row style={{ justifyContent: "center", position: "relative" }}>
                     <Button
@@ -80,7 +87,7 @@ function RegistrationInfo() {
           <Row>
               <Col className="home-about-description">
                 <h1>
-                    On the day of festival:
+                    On the day of festival
                 </h1>
                 <p className="home-about-body">
                     Entrance Process: The entrance process for the 2022 Sun God Festival will be similar to what can be expected at most large-scale festivals so please plan accordingly:
@@ -98,18 +105,18 @@ function RegistrationInfo() {
                     Festival Hours
                 </h1>
                 <p className="home-about-body">
-                    Festival Hours: 12pm - 6pm. Re-Entry will not be allowed. Have Questions? Visit our FAQs for more info!
+                    <b>Festival Hours</b>: 12pm - 6pm. Re-Entry will not be allowed. Have Questions? Visit our FAQs for more info!
                 </p>
               </Col>
           </Row>
           <Row>
             <Col className="home-about-description">
                   <h1>
-                      Terms & Conditions
+                      {"Terms & Conditions"}
                   </h1>
                   <p className="home-about-body">
                   <ul>
-                      <li>Only undergraduate students enrolled at UC San Diego for at least one quarter during the 2021-2022 school year are eligible to attend. Summer sessions are not applicable.</li>
+                      <li>Only undergraduate students enrolled at UC San Diego for at least one quarter during the 2021-2022 school year are eligible to attend. Summer Sessions are not applicable.</li>
                       <li>Ticket does not guarantee entry. Venue subject to capacity restrictions.</li>
                       <li>A limited number of graduate student tickets are available for purchase. All deadlines, vaccine compliance policies and other eligibility requirements apply. </li>
                       <li>In order to receive a ticket, one must register for the festival by Noon on Friday, April 22nd AND be compliant with the COVID-19 Vaccine Mandate by Noon on Wednesday, April 27th. Failure to do both of these will result in you not receiving a ticket to enter the event.</li>
@@ -119,9 +126,10 @@ function RegistrationInfo() {
                       <li>Your ticket and unique QR code are not transferable. The theft, conversion or misuse of it, such as selling it to another individual, will be referred to the Office of Student Conduct and subject to the student conduct process.</li>
                   </ul>
               </p>
-                    </Col>
+            </Col>
           </Row>
         </Container>
+        <Particle />
       </Container>
     </section>
   );

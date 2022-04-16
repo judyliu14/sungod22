@@ -27,7 +27,7 @@ function Sponsors() {
             <Col md={3} className="home-about-description">
                 <Tilt>
                   <a
-                    href="https://asce.ucsd.edu/"
+                    href="https://as.ucsd.edu/"
                     target="_blank" 
                     rel="noopener noreferrer"
                   >

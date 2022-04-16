@@ -5,8 +5,6 @@ import Tilt from "react-parallax-tilt";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 
-// const babiesLink = "https://to.ucsd.edu/collections/sun-god-festival-2022"
-
 function SunGodBabies() {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -17,18 +15,16 @@ function SunGodBabies() {
               Sun God Babies
             </h1>
             <p className="home-about-body">
-            Come to the biggest event of the year in style by rocking some sweet festival merch! 
-            This year, Triton Outfitters has anything from running shorts, to band-inspired t-shirt, 
-            to chic bandanas.
+              Sun God Babies is an annual campus-wide scavenger hunt! Hundreds of Sun God Babies are hidden throughout campus for students to find. Learn more to collect them all.
             </p>
             <Row style={{ justifyContent: "center", position: "relative" }}>
               <Button
                 variant="primary"
                 as={Link}
-                to="/sun-god-babies"
+                to="/sgfbabies"
                 style={{ maxWidth: "250px" }}
               >
-                &nbsp;<b>Get Sun God Babies </b>
+                &nbsp;<b>Find Sun God Babies </b>
               </Button>
             </Row>
           </Col>

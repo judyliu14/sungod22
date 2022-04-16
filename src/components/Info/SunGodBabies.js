@@ -8,7 +8,6 @@ function SunGodBabies() {
   return (
     <section>
       <Container fluid className="home-about-section" id="about">
-        <Particle />
         <Container>
           <Row>
             <Col md={8} className="home-about-description">
@@ -16,7 +15,14 @@ function SunGodBabies() {
                     Sun God Babies
                 </h1>
                 <p className="home-about-body">
-                    Sun God Babies is an annual campus-wide scavenger hunt that coincides with the Sun God Festival! Hundreds of Sun God inspired cutouts are hidden all over campus for students to find throughout a three week period. Once found, they can be exchanged for amazing and exclusive Sun God merchandise and discounts with Triton Outfitters!
+                  Sun God Babies is an annual campus-wide scavenger hunt that coincides with the Sun God Festival! Hundreds of Sun God inspired cutouts are hidden all over campus for students to find leading up to Sun God Festival. Once found, they can be exchanged for amazing and exclusive Sun God Festival merchandise and discounts with Triton Outfitters!
+                  <br />
+                  <br />
+                  {"Follow "} 
+                  <a href="https://asce.ucsd.edu/" target="_blank" alt="UCSD ASCE">@ucsdasce</a>, 
+                  <a href="https://to.ucsd.edu/" target="_blank" alt="UCSD ASCE">@tritonoutfitters</a>, and 
+                  <a href="https://asgraphicstudio.ucsd.edu/" target="_blank" alt="UCSD ASCE"> @asgraphicstudio </a> 
+                  for clues and updates.
                 </p>
             </Col>
             <Col md={4} className="myAvtar">
@@ -39,6 +45,7 @@ function SunGodBabies() {
               </Col>
           </Row>
         </Container>
+        <Particle />
       </Container>
     </section>
   );
