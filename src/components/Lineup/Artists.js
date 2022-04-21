@@ -35,13 +35,6 @@ function Artists() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       {/* -----------iann dior----------- */}
       <Col xs={7} md={10} className="artists-icons">
-        <p class="lineup-description">
-          <h1 className="home-about-section" style={{textAlign: "center"}}>
-            Full Lineup: To Be Announced
-          </h1>
-        </p>
-      </Col>
-      <Col xs={7} md={10} className="artists-icons">
           <button class="artist-buttons" onClick={toggleIsOpenOne}>
             <img src={iannDior} className="img-fluid" alt="avatar" />
           </button>

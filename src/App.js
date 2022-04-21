@@ -27,6 +27,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import ReactGA from 'react-ga';
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -38,6 +39,9 @@ function App() {
 
     return () => clearTimeout(timer);
   }, []);
+
+  ReactGA.initialize('UA-30719938-1');
+  ReactGA.pageview(window.location.pathname + window.location.search);
 
   return (
     <Router>

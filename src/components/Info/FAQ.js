@@ -149,6 +149,72 @@ const generalData = {
         },
       ]
   }
+  const canIBringData = {
+    rows: [
+      {
+          title: "What can't I bring to the festival?",
+          content: `The following items are prohibited:
+                    <ul>
+                        <li>Alcohol</li>
+                        <li>Drugs & Drug Paraphernalia</li>
+                        <li>Knives, Weapons, etc.</li>
+                        <li>Fireworks or Explosives</li>
+                        <li>Tobacco or Vapor Products</li>
+                        <li>Backpacks</li>
+                        <li>Bags larger than 8.5” x 11”</li>
+                        <li>Bicycles or Unicycles</li>
+                        <li>Skateboards or Roller Skates</li>
+                        <li>Professional Cameras</li>
+                        <li>Video Cameras</li>
+                        <li>Selfie Sticks, Tripods or Monopods</li>
+                        <li>Audio Recording Devices</li>
+                        <li>Glass, Cans, Cups or Coolers</li>
+                        <li>Disposable Water Bottles</li>
+                        <li>Outside Food & Beverage</li>
+                        <li>Camel Backs, Bota Bags, Hydration Packs, etc. </li>
+                        <li>Musical instruments</li>
+                        <li>Laser Pointers</li>
+                        <li>Chains / Chain Wallets</li>
+                        <li>Chairs or Umbrellas</li>
+                        <li>Totems, Signs or Flags</li>
+                        <li>Hula Hoops or Batons</li>
+                        <li>Stuffed Animals</li>
+                        <li>Pets</li>
+                        <li>Drones or Remote Control Aircraft, Toys or Cars</li>
+                        <li>Radios / Walkie-Talkies</li>
+                    </ul>`
+        },
+        {
+            title: "What should I bring to the festival?",
+            content: `Be sure to bring your campus ID and your digital festival ticket, which will be emailed the day before the festival to all those who registered and are compliant with the COVID-19 Vaccine Mandate by the respective deadlines. We also encourage you to bring an empty, reusable, non-glass water bottle so you can enjoy free water throughout the event. 
+                      Students are also highly encouraged to bring the following:
+                      <ul>
+                        <li>Face mask</li>
+                        <li>An empty, non-glass reusable water bottle (get free water at the festival!)</li>
+                        <li>A fully charged cell phone (bring a portable charger too, if you've got one)</li>
+                        <li><a href="/transportation" alt="transportation">A plan to get home safely</a></li>
+                        <li>Earplugs (it may get a little loud)</li>
+                        <li>A hat, sunglasses and sunblock (it could be warm and bright, people)</li>
+                      </ul>`
+        },
+        {
+            title: "Can I bring outside food/beverage?",
+            content: "No outside food or beverage will be permitted. Food will be sold inside the festival. No disposable water bottles are allowed in the festival, even if they are sealed. Only empty, reusable, non-glass water bottles will be allowed."
+        },
+        {
+            title: "Can I bring a camera?",
+            content: "Only point-and-shoot cameras and camera phones are allowed into the venue. NO professional video recorders or cameras with a removable lens, selfie sticks, and other photo accessories will be permitted."
+        },
+        {
+            title: "Can I bring an animal to the Festival?",
+            content: "Service animals specifically trained to assist a person with a disability are welcome.  No other animals, including pets, therapy animals, or emotional support animals, are allowed."
+        },
+        {
+            title: "Can I bring a bag to the Festival?",
+            content: "Only bags smaller than 8.5” x 11” will be permitted into the festival. Backpacks are not allowed at the festival."
+        }
+    ]
+}
 
 const styles = {
   bgColor: '#b68e8900',
@@ -218,6 +284,16 @@ function FAQ() {
                     </h1>
                     <div style={{ paddingTop: '20px', width: "100%", textAlign: "left" }}>
                     <Faq data={willThereData} styles={styles} config={config}/>
+                    </div>
+                </Col>
+            </Row>
+            <Row> 
+                <Col className="home-about-description">
+                    <h1 style={{ fontSize: "1.6em" }}>
+                       Can I Bring...
+                    </h1>
+                    <div style={{ paddingTop: '20px', width: "100%", textAlign: "left" }}>
+                    <Faq data={canIBringData} styles={styles} config={config}/>
                     </div>
                 </Col>
             </Row>
