@@ -145,7 +145,7 @@ const generalData = {
         },
         {
             title: "Will there be ATMs?",
-            content: "Yes. They will be clearly marked on the Festival map."
+            content: "No. There will not be ATMs on the field."
         },
       ]
   }

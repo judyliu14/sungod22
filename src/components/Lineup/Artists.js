@@ -116,6 +116,10 @@ function Artists() {
             <h1>
               {"Berhana"}
             </h1>
+            {`R&B Pop chameleon Berhana is turning the genre on its head. The Atlanta-born, and now LA-based musician comes from a film background, and his vision is cinematic. He sees music primarily in its capacity for storytelling, for escapism. That's why HAN, the LP, has a narrator woven between tracks, guiding the listener on a journey through psychedelic soul and minimal electronica all led by Berhana's honeyed vocals. Produced by David Pimentel, the songs have a luxurious attention to detail, couching Berhana comfortably alongside the likes of Miguel and Anderson Paak. The album’s sonic twists and turns are indebted to the freedom felt in some of his musical influences, including Stereolab, Yukihiro Takahashi, Squarepusher and Bjork.
+              <br />
+              <br />
+              Grey Luh, the last track on the Berhana EP, wound down with, “Copped this one way out to Mexico, cause you compress my soul and call it love.” The story was left unfinished. It makes perfect sense that the LP would pick up where he left off - the next leg of the flight, “Project 002.”`}
           </p>
         </Col>
       </CSSTransition>
