@@ -9,6 +9,7 @@ import ADAInfo from "./components/Info/ADAInfo";
 import Apparel from "./components/Info/Apparel";
 import FAQ from "./components/Info/FAQ";
 import RegistrationInfo from "./components/Info/RegistrationInfo";
+import Map from "./components/Info/Map";
 import SunGodBabies from "./components/Info/SunGodBabies";
 import SunGodForACause from "./components/Info/SunGodForACause";
 import Transportation from "./components/Info/Transportation";
@@ -23,6 +24,7 @@ import {
   Routes,
   Navigate
 } from "react-router-dom";
+
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
@@ -60,6 +62,7 @@ function App() {
           <Route path="/apparel" element={<Apparel />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/registration-info" element={<RegistrationInfo />} />
+          <Route path="/map" element={<Map />} />
           <Route path="/sun-god-for-a-cause" element={<SunGodForACause />} />
           <Route path="/sgfbabies" element={<SunGodBabies />} />
           <Route path="/transportation" element={<Transportation />} />

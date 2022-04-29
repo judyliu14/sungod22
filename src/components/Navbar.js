@@ -73,6 +73,7 @@ function NavBar() {
             <NavDropdown title={navDropdownTitle} id="navbarScrollingDropdown" renderMenuOnMount={true}>
               <NavDropdown.Item as={Link} to="/info" onClick={() => updateExpanded(false)}>About the Festival</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/registration-info" onClick={() => updateExpanded(false)}>Registration</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/map" onClick={() => updateExpanded(false)}>Map</NavDropdown.Item>
               <NavDropdown.Item href={apparelLink} target="_blank" onClick={() => updateExpanded(false)}>Apparel</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/transportation" onClick={() => updateExpanded(false)}>Transportation</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/adainfo" onClick={() => updateExpanded(false)}>ADA Info</NavDropdown.Item>

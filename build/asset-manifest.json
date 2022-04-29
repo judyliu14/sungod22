@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ef293c9c.css",
+    "main.js": "/static/js/main.ad186af1.js",
+    "static/js/415.58a7cd44.chunk.js": "/static/js/415.58a7cd44.chunk.js",
+    "static/js/787.d3c7e1e1.chunk.js": "/static/js/787.d3c7e1e1.chunk.js",
+    "static/media/sign.png": "/static/media/sign.2e13f28aa00412e61097.png",
+    "static/media/sky.png": "/static/media/sky.07919004742a8f203554.png",
+    "static/media/swing.png": "/static/media/swing.a1d920a546b388fe6391.png",
+    "static/media/home-bg.png": "/static/media/home-bg.86d9803be5eb15cfaa32.png",
+    "static/media/beachChairs.png": "/static/media/beachChairs.bdf27a35bb8b4c7c7fdb.png",
+    "static/media/ptr.png": "/static/media/ptr.ba646e806d249b24701e.png",
+    "static/media/SGF22_Map.jpg": "/static/media/SGF22_Map.85c5a277b537f4852ff9.jpg",
+    "static/media/iandior.png": "/static/media/iandior.2c2aa6e46c2891943ecd.png",
+    "static/media/berhana.png": "/static/media/berhana.f074037141caa335e6f7.png",
+    "static/media/umi.png": "/static/media/umi.45efa6b9a7483d8b49df.png",
+    "static/media/keshi.png": "/static/media/keshi.122547949c4acb36bf71.png",
+    "static/media/merch.png": "/static/media/merch.4fb9192e3793580e8371.png",
+    "static/media/sunGodBabies.png": "/static/media/sunGodBabies.2bc916db2366a3cc8c77.png",
+    "static/media/SGF22_ThurgoodVibes.png": "/static/media/SGF22_ThurgoodVibes.718abe55d4f79be838d0.png",
+    "static/media/SGF22_AS.png": "/static/media/SGF22_AS.74b099fb3fd729d2fc79.png",
+    "static/media/BTO_logo.png": "/static/media/BTO_logo.96700251650b60b2bb81.png",
+    "static/media/SGF22_ASGS.png": "/static/media/SGF22_ASGS.678d8bea8f1e04ff9213.png",
+    "static/media/SGF22_TO.png": "/static/media/SGF22_TO.02cc03d95b900cb9158c.png",
+    "static/media/AAA_logo.png": "/static/media/AAA_logo.c5ad15b889cb80b1adff.png",
+    "static/media/asce-logo.png": "/static/media/asce-logo.69ef782ce69a342764af.png",
+    "static/media/logo-black.png": "/static/media/logo-black.98cfa95ecc7023eecc37.png",
+    "static/media/HH_logo.png": "/static/media/HH_logo.8ad1d19f354ba6783d14.png",
+    "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/index.html",
+    "main.ef293c9c.css.map": "/static/css/main.ef293c9c.css.map",
+    "main.ad186af1.js.map": "/static/js/main.ad186af1.js.map",
+    "415.58a7cd44.chunk.js.map": "/static/js/415.58a7cd44.chunk.js.map",
+    "787.d3c7e1e1.chunk.js.map": "/static/js/787.d3c7e1e1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef293c9c.css",
+    "static/js/main.ad186af1.js"
+  ]
+}

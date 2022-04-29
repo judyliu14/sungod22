@@ -17,9 +17,9 @@ function Registration() {
               REGISTRATION
             </h1>
             <p className="home-about-body">
-              Registration for the 2022 Sun God Festival is now OPEN!
+              Registration for the 2022 Sun God Festival is now <strong>CLOSED.</strong>
               <br />
-              <br />All attendees must register by
+              <br />All attendees must have completed registration by
               <b> Noon on Friday, April 22nd </b>
               AND be compliant with the COVID-19 Vaccine Mandate by
               <b> Noon on Wednesday, April 27th </b>
