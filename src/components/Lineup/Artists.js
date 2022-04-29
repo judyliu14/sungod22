@@ -1,11 +1,11 @@
 import React, { useState, setState } from "react";
 import { Col, Row } from "react-bootstrap";
 import { CSSTransition } from 'react-transition-group'
-import berhana from "../../Assets/Artists/berhana.jpeg"
-import keshi from "../../Assets/Artists/keshi.jpg"
-import ptr from "../../Assets/Artists/ptr.jpg"
-import umi from "../../Assets/Artists/umi.jpg" 
-import iannDior from "../../Assets/Artists/iannDior.jpg"
+import berhana from "../../Assets/Artists/berhana.png"
+import keshi from "../../Assets/Artists/keshi.png"
+import ptr from "../../Assets/Artists/ptr.png"
+import umi from "../../Assets/Artists/umi.png" 
+import iannDior from "../../Assets/Artists/iandior.png"
 
 function Artists() {
 
@@ -34,13 +34,13 @@ function Artists() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       {/* -----------iann dior----------- */}
-      <Col xs={7} md={10} className="artists-icons">
+      <Col xs={6} md={10} className="artists-icons">
           <button class="artist-buttons" onClick={toggleIsOpenOne}>
             <img src={iannDior} className="img-fluid" alt="avatar" />
           </button>
       </Col>
       <CSSTransition in={isOpenOne} appear={isOpenOne} unmountOnExit timeout={100} classNames="lineup">
-        <Col xs={7} md={10}>
+        <Col xs={6} md={6}>
           <p class="lineup-description">
             <h1>
               {"Iann Dior"}
@@ -57,7 +57,7 @@ function Artists() {
           </button>
       </Col>
       <CSSTransition in={isOpenTwo} appear={isOpenTwo} unmountOnExit timeout={100} classNames="lineup">
-        <Col xs={7} md={10}>
+        <Col xs={6} md={6}>
           <p class="lineup-description">
             <h1>
               {"keshi"}
@@ -77,7 +77,7 @@ function Artists() {
           </button>
       </Col>
       <CSSTransition in={isOpenThree} appear={isOpenThree} unmountOnExit timeout={100} classNames="lineup">
-        <Col xs={7} md={10}>
+        <Col xs={6} md={6}>
           <p class="lineup-description">
             <h1>
               {"Umi"}
@@ -94,7 +94,7 @@ function Artists() {
           </button>
       </Col>
       <CSSTransition in={isOpenFour} appear={isOpenFour} unmountOnExit timeout={100} classNames="lineup">
-        <Col xs={7} md={10}>
+        <Col xs={6} md={6}>
           <p class="lineup-description">
             <h1>
               {"Peach Tree Rascals"}
@@ -111,15 +111,15 @@ function Artists() {
           </button>
       </Col>
       <CSSTransition in={isOpenFive} appear={isOpenFive} unmountOnExit timeout={100} classNames="lineup">
-        <Col xs={7} md={10}>
+        <Col xs={6} md={6}>
           <p class="lineup-description">
             <h1>
               {"Berhana"}
             </h1>
-            {`R&B Pop chameleon Berhana is turning the genre on its head. The Atlanta-born, and now LA-based musician comes from a film background, and his vision is cinematic. He sees music primarily in its capacity for storytelling, for escapism. That's why HAN, the LP, has a narrator woven between tracks, guiding the listener on a journey through psychedelic soul and minimal electronica all led by Berhana's honeyed vocals. Produced by David Pimentel, the songs have a luxurious attention to detail, couching Berhana comfortably alongside the likes of Miguel and Anderson Paak. The album’s sonic twists and turns are indebted to the freedom felt in some of his musical influences, including Stereolab, Yukihiro Takahashi, Squarepusher and Bjork.
+            {"R&B Pop chameleon Berhana is turning the genre on its head. The Atlanta-born, and now LA-based musician comes from a film background, and his vision is cinematic. He sees music primarily in its capacity for storytelling, for escapism. That's why HAN, the LP, has a narrator woven between tracks, guiding the listener on a journey through psychedelic soul and minimal electronica all led by Berhana's honeyed vocals. Produced by David Pimentel, the songs have a luxurious attention to detail, couching Berhana comfortably alongside the likes of Miguel and Anderson Paak. The album’s sonic twists and turns are indebted to the freedom felt in some of his musical influences, including Stereolab, Yukihiro Takahashi, Squarepusher and Bjork."}
               <br />
               <br />
-              Grey Luh, the last track on the Berhana EP, wound down with, “Copped this one way out to Mexico, cause you compress my soul and call it love.” The story was left unfinished. It makes perfect sense that the LP would pick up where he left off - the next leg of the flight, “Project 002.”`}
+             {"Grey Luh, the last track on the Berhana EP, wound down with, “Copped this one way out to Mexico, cause you compress my soul and call it love.” The story was left unfinished. It makes perfect sense that the LP would pick up where he left off - the next leg of the flight, “Project 002.”"}
           </p>
         </Col>
       </CSSTransition>
