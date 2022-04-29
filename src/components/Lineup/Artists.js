@@ -34,13 +34,13 @@ function Artists() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       {/* -----------iann dior----------- */}
-      <Col xs={6} md={10} className="artists-icons">
+      <Col xs={10} md={10} className="artists-icons">
           <button class="artist-buttons" onClick={toggleIsOpenOne}>
             <img src={iannDior} className="img-fluid" alt="avatar" />
           </button>
       </Col>
       <CSSTransition in={isOpenOne} appear={isOpenOne} unmountOnExit timeout={100} classNames="lineup">
-        <Col xs={6} md={6}>
+        <Col xs={10} md={6}>
           <p class="lineup-description">
             <h1>
               {"Iann Dior"}
@@ -51,13 +51,13 @@ function Artists() {
       </CSSTransition>
       
       {/* -----------keshi----------- */}
-      <Col xs={7} md={10} className="artists-icons">
+      <Col xs={10} md={10} className="artists-icons">
           <button class="artist-buttons" onClick={toggleIsOpenTwo}>
             <img src={keshi} className="img-fluid" alt="avatar" />
           </button>
       </Col>
       <CSSTransition in={isOpenTwo} appear={isOpenTwo} unmountOnExit timeout={100} classNames="lineup">
-        <Col xs={6} md={6}>
+        <Col xs={10} md={6}>
           <p class="lineup-description">
             <h1>
               {"keshi"}
@@ -71,13 +71,13 @@ function Artists() {
       </CSSTransition>
 
       {/* -----------umi----------- */}
-      <Col xs={7} md={10} className="artists-icons">
+      <Col xs={10} md={10} className="artists-icons">
           <button class="artist-buttons" onClick={toggleIsOpenThree}>
             <img src={umi} className="img-fluid" alt="avatar" />
           </button>
       </Col>
       <CSSTransition in={isOpenThree} appear={isOpenThree} unmountOnExit timeout={100} classNames="lineup">
-        <Col xs={6} md={6}>
+        <Col xs={10} md={6}>
           <p class="lineup-description">
             <h1>
               {"Umi"}
@@ -88,13 +88,13 @@ function Artists() {
       </CSSTransition>
       
       {/* -----------peach tree pascals----------- */}
-      <Col xs={7} md={10} className="artists-icons">
+      <Col xs={10} md={10} className="artists-icons">
           <button class="artist-buttons" onClick={toggleIsOpenFour}>
             <img src={ptr} className="img-fluid" alt="avatar" />
           </button>
       </Col>
       <CSSTransition in={isOpenFour} appear={isOpenFour} unmountOnExit timeout={100} classNames="lineup">
-        <Col xs={6} md={6}>
+        <Col xs={10} md={6}>
           <p class="lineup-description">
             <h1>
               {"Peach Tree Rascals"}
@@ -105,13 +105,13 @@ function Artists() {
       </CSSTransition>
 
       {/* -----------berhana----------- */}
-      <Col xs={7} md={10} className="artists-icons">
+      <Col xs={10} md={10} className="artists-icons">
           <button class="artist-buttons" onClick={toggleIsOpenFive}>
             <img src={berhana} className="img-fluid" alt="avatar" />
           </button>
       </Col>
       <CSSTransition in={isOpenFive} appear={isOpenFive} unmountOnExit timeout={100} classNames="lineup">
-        <Col xs={6} md={6}>
+        <Col xs={10} md={6}>
           <p class="lineup-description">
             <h1>
               {"Berhana"}
