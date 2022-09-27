@@ -29,10 +29,14 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 className="heading-name">
-                <strong className="main-name"> SUN GOD FESTIVAL 2022</strong>
+                <strong className="main-name">SUN GOD FESTIVAL 2022</strong>
               </h1>
               <h1 className="heading">
                 <CountDownTimer daysHoursMinSecs={daysHoursMinSecs}/>
+              </h1>
+              
+              <h1 className="heading">
+                <strong className="main-name">See you at the next Sun God Festival.</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
