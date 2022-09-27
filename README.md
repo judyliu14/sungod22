@@ -1,6 +1,6 @@
 <h2 align="center">
   Sun God Festival 2022<br/>
-  <a href="sgf.ucsd.edu/2022" target="_blank">sfg.ucsd.edu/2022</a>
+  <a href="http://sgf.ucsd.edu/ target="_blank">sgf.ucsd.edu/2022</a>
 </h2>
 
 <br/>
