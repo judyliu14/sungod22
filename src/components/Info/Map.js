@@ -1,7 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Mission from "./Mission"
-import Tilt from "react-parallax-tilt";
 import Particle from "../Particle";
 import map from "../../Assets/SGF22_Map.jpg" 
 

@@ -15,7 +15,7 @@ function Home() {
 
   const today = new Date(),
         sunGodDay = Date.parse("04/30/2022 12:00:00"),
-        diff = sunGodDay - today;
+        diff = Math.max(0, sunGodDay - today);
   const daysHoursMinSecs = {days: Math.floor(diff / (day)), 
                             hours: Math.floor(diff % (day) / hour), 
                             minutes: Math.floor(diff % (hour) / minute), 
