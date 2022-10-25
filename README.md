@@ -13,7 +13,7 @@ This project was built using these technologies.
 - Node.js
 - Express.js
 - CSS3
-- VsCode
+- VSCode
 - Vercel
 
 ## Features
